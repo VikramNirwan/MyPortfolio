@@ -11,8 +11,9 @@ export default function SocialLinks() {
           LinkedIn <FaLinkedin size={27} />
         </>
       ),
-      href: "https://Linkedin.com",
+      href: "https://www.linkedin.com/in/vikram-nirwan-858280236/",
       style: "rounded-tr-md",
+      title: "Link for Linkedin",
     },
     {
       id: 2,
@@ -22,6 +23,7 @@ export default function SocialLinks() {
         </>
       ),
       href: "https://github.com/vikramnirwan",
+      title: "Link for github",
     },
     {
       id: 3,
@@ -30,7 +32,8 @@ export default function SocialLinks() {
           Mail <HiOutlineMail size={27} />
         </>
       ),
-      href: "mailto:asd@gmail.com",
+      href: "mailto:vnirwan642gmail.com.com",
+      title: "Link for gmail",
     },
     {
       id: 4,
@@ -42,12 +45,13 @@ export default function SocialLinks() {
       href: "https//:google.com",
       style: "rounded-br-md",
       download: true,
+      title: "Link for resume",
     },
   ];
   return (
     <div className="hidden md:flex flex-col top-[34%] left-0 fixed ">
       <ul>
-        {links.map(({ id, child, href, style, download }) => (
+        {links.map(({ id, child, href, style, download, title }) => (
           <li
             key={id}
             className={
@@ -62,6 +66,7 @@ export default function SocialLinks() {
               download={download}
               target="_blank"
               rel="noreferrer"
+              title={title}
             >
               {child}
             </a>
