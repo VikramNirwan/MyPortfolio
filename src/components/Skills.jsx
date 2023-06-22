@@ -51,13 +51,13 @@ export default function Experience() {
       id: 7,
       src: Node,
       title: "Node Js",
-      style: "shadow-gray-300",
+      style: "shadow-green-300",
     },
     {
       id: 8,
       src: MongoDB,
       title: "MongoDB",
-      style: "shadow-gray-300",
+      style: "shadow-green-300",
     },
     {
       id: 9,
