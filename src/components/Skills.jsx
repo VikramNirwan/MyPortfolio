@@ -6,7 +6,7 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import Node from "../assets/node.png";
-import Express from "../assets/Express.jpg";
+import Express from "../assets/Express.png";
 import MongoDB from "../assets/mongodb.png";
 
 export default function Experience() {
