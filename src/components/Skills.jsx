@@ -5,6 +5,9 @@ import github from "../assets/github.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
+import Node from "../assets/node.png";
+import Express from "../assets/Express.jpg";
+import MongoDB from "../assets/mongodb.png";
 
 export default function Experience() {
   const techs = [
@@ -42,6 +45,24 @@ export default function Experience() {
       id: 6,
       src: github,
       title: "GitHub",
+      style: "shadow-gray-300",
+    },
+    {
+      id: 7,
+      src: Node,
+      title: "Node Js",
+      style: "shadow-gray-300",
+    },
+    {
+      id: 8,
+      src: MongoDB,
+      title: "MongoDB",
+      style: "shadow-gray-300",
+    },
+    {
+      id: 9,
+      src: Express,
+      title: "Express",
       style: "shadow-gray-300",
     },
   ];

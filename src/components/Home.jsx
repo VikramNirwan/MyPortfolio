@@ -9,8 +9,9 @@ export default function Home() {
           HEY,I'M VIKRAM NIRWAN
         </h2>
         <p className="text-gray-800 leading-7 py-4 px-2 mb-5 max-w-md text-sm md:text-base text-center">
-          A Frontend focused Web Developer building the Frontend of Websites and
-          Web Applications that leads to the success of the overall product
+          A Full Stack Web Developer building the Frontend and Backend of
+          Websites and Web Applications that leads to the success of the overall
+          product.
         </p>
         <div>
           <Link

@@ -13,7 +13,9 @@ export default function Footer() {
         >
           <div className="mb-4 md:mb-0">
             <p className="text-white font-bold px-2">VIKRAM NIRWAN</p>
-            <p className="text-white font-light px-2">Frontend developer</p>
+            <p className="text-white font-light px-2">
+              Full Stack web developer
+            </p>
           </div>
           <div>
             <p className="text-white font-bold px-2">SOCIAL LINKS</p>

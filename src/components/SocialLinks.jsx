@@ -42,10 +42,10 @@ export default function SocialLinks() {
           Resume <BsFillPersonLinesFill size={27} />
         </>
       ),
-      href: "https//:google.com",
+      href: "/Resume.pdf",
       style: "rounded-br-md",
       download: true,
-      title: "Link for resume",
+      title: "Resume",
     },
   ];
   return (

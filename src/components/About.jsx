@@ -17,9 +17,9 @@ export default function About() {
             Get to know me!
           </p>
           <p className="text-sm text-gray-800 mt-3 px-2 leading-7 text-justify">
-            I'm a Frontend Web Developer building the Front-end of Websites and
-            Web Applications that leads to the success of the overall product.
-            Check out some of my work in the Projects section.
+            I'm a Full Stack Web Developer building the Frontend and Backend of
+            Websites and Web Applications that leads to the success of the
+            overall product. Check out some of my work in the Projects section.
           </p>
           <br />
           <p className="text-sm text-gray-800 px-2 leading-7 text-justify">
